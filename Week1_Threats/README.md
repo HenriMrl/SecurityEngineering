@@ -1,14 +1,14 @@
 # Week 1
 
-### Grading 
+### Grading
 
-Task #|Points|Description|
------|:---:|----------|
-[Virtual Machine Setup](#virtual-machine-setup-virtual-machine-with-docker) | - | Virtual Machine & Docker
-[Task 1](#task-1-what-measures-have-you-taken-to-protect-yourself-from-cyber-crimes) | 1 | Measures Against Cyber Crimes
-[Task 2](#task-2-company-security-policy) | 1 | Company Security Policy
-[Task 3](#task-3-threat-modelling) | 1 | Threat Modelling
-[Task 4](#task-4-personal-security-audit) | 1 | Personal Security Audit
+| Task #                                                                               | Points | Description                   |
+| ------------------------------------------------------------------------------------ | :----: | ----------------------------- |
+| [Virtual Machine Setup](#virtual-machine-setup-virtual-machine-with-docker)          |   -    | Virtual Machine & Docker      |
+| [Task 1](#task-1-what-measures-have-you-taken-to-protect-yourself-from-cyber-crimes) |   1    | Measures Against Cyber Crimes |
+| [Task 2](#task-2-company-security-policy)                                            |   1    | Company Security Policy       |
+| [Task 3](#task-3-threat-modelling)                                                   |   1    | Threat Modelling              |
+| [Task 4](#task-4-personal-security-audit)                                            |   1    | Personal Security Audit       |
 
 ---
 
@@ -16,7 +16,7 @@ Task #|Points|Description|
 
 ### Virtual Machine Setup: Virtual Machine with Docker
 
-You should setup the courses virtual machine and get it ready with docker working. This weeks exercise session will focus on this. 
+You should setup the courses virtual machine and get it ready with docker working. This weeks exercise session will focus on this.
 
 - Download the course virtual machine from https://ouspg.org/archlinux/.
 
@@ -24,27 +24,26 @@ You should setup the courses virtual machine and get it ready with docker workin
 
 - Credentials for the machine are 'arch/arch'
 
-- Update keyring in console with ```sudo pacman -S archlinux-keyring```
+- Update keyring in console with `sudo pacman -S archlinux-keyring`
 
-- Update system with ```sudo pacman -Syu```
+- Update system with `sudo pacman -Syu`
 
-- Test Docker with ```docker run hello-world```
+- Test Docker with `docker run hello-world`
 
 # Tasks
 
 ### Task 1: What measures have you taken to protect yourself from cyber crimes?
 
-Write a short description of the actions you have done to fortify your defenses towards all sorts of cyber crimes, including possible servers and accounts you have. Please keep in mind not to include any specific details, such as passwords or tokens.
+For actions against cyber attacs I am for example using multi factor authentication everywhere if possible. I am also using a different password for all of my accounts. I make my passwords strong and long enough to protect against brute force attacks etc. I also use password managers if possible, but only of the most popular ones and the reliable ones.
 
-Have you been a victim of cyber crimes and do you think you could have prevented them? For example phishing and malware attacks. What could you improve on?
-
-Please keep your answer concise, bullet points are acceptable, but remember to answer atleast all mentioned topics.
+I have not been a victim of cyber crimes. I think I could improve on checking if my accounts have been compromised more often. for example using haveibeenpwned.
 
 ---
 
 ### Task 2: Company Security Policy
+
 Pick two topics from the list below to write a security policy on.
-An effort should be made to include one policy on one A4 page. 
+An effort should be made to include one policy on one A4 page.
 
 <details>
 <summary>Topics</summary>
@@ -70,31 +69,31 @@ You don't have to contain yourself to just text, you may include for example pic
 
 ### Task 3: Threat Modelling
 
-Recommended to check out this very tight package on threat modelling. [The privacyguides' threat modelling info package.](https://www.privacyguides.org/en/basics/threat-modeling/) 
+Recommended to check out this very tight package on threat modelling. [The privacyguides' threat modelling info package.](https://www.privacyguides.org/en/basics/threat-modeling/)
 
 <details>
 <summary>Here's the essential points you can find in the above link:</summary>
 <br>
 
-- Identify your assets. WHAT do you want to protect? 
+- Identify your assets. WHAT do you want to protect?
 
-- Who are your potential adversaries. WHO do you want to protect from? 
+- Who are your potential adversaries. WHO do you want to protect from?
 
-- Assess the threats and likelyhoods of them for each of your assets. How LIKELY is it that you will need to protect it? 
+- Assess the threats and likelyhoods of them for each of your assets. How LIKELY is it that you will need to protect it?
 
-- Evaluate impact if an asset is compromised. How bad are the CONSEQUENCES if you fail? 
+- Evaluate impact if an asset is compromised. How bad are the CONSEQUENCES if you fail?
 
-- Cost. How much trouble and time are you willing to spend to prevent the consequences? 
+- Cost. How much trouble and time are you willing to spend to prevent the consequences?
 
-- Mitigate or mitigation plan; determine what you can do now and what to do if compromised. 
+- Mitigate or mitigation plan; determine what you can do now and what to do if compromised.
 
 </details>
 
-### Task 2A: [Threat Dragon](https://owasp.org/www-project-threat-dragon/) 
+### Task 2A: [Threat Dragon](https://owasp.org/www-project-threat-dragon/)
 
-Threat Dragon is an OSS tool used to create threat model diagrams(see image below). The tool very specifically does **not** try to do too much on its own, rather gives control to the user and encourages their own thinking, as they should thoroughly analyse the system they are working on. 
+Threat Dragon is an OSS tool used to create threat model diagrams(see image below). The tool very specifically does **not** try to do too much on its own, rather gives control to the user and encourages their own thinking, as they should thoroughly analyse the system they are working on.
 
-In this task we are using the second version, it's documentation is [here](https://owasp.org/www-project-threat-dragon/docs-2/install-options/). You may use your preferred method for installation, they are very similar, but we recommend **the desktop application,** as it stores the models on the local file system. First go through a bit of the documentation to get acquainted with the tool. Then you will be analysing a ready made flawed model, and you should find pain points and fix the model. The model is *"Student_website_Threat_Model.json"* in the threat dragon repository, there you will also find an example of how the report looks like without threats. Below you will find minimum requirements and a system description. 
+In this task we are using the second version, it's documentation is [here](https://owasp.org/www-project-threat-dragon/docs-2/install-options/). You may use your preferred method for installation, they are very similar, but we recommend **the desktop application,** as it stores the models on the local file system. First go through a bit of the documentation to get acquainted with the tool. Then you will be analysing a ready made flawed model, and you should find pain points and fix the model. The model is _"Student_website_Threat_Model.json"_ in the threat dragon repository, there you will also find an example of how the report looks like without threats. Below you will find minimum requirements and a system description.
 
 <details>
 <summary>Minimun requirements for the point:</summary>
@@ -102,13 +101,13 @@ In this task we are using the second version, it's documentation is [here](https
 
 Each **missing** or **incomplete** main point deducts 0.1 from this part.
 
-- Created at least 10 threats 
-    - Use STRIDE with approriate categories
-- Mitigated at least 5 threats 
-    - Must include how mitigated 
-- Named yourself as the reviewer 
+- Created at least 10 threats
+  - Use STRIDE with approriate categories
+- Mitigated at least 5 threats
+  - Must include how mitigated
+- Named yourself as the reviewer
 - Exported report as PDF and uploaded to github
-- Gave feedback on this task on your github page 
+- Gave feedback on this task on your github page
 
 </details>
 
@@ -116,12 +115,12 @@ Each **missing** or **incomplete** main point deducts 0.1 from this part.
 <summary>System description:</summary>
 <br>
 
-The model is of a static student portfolio website with the following attributes: 
+The model is of a static student portfolio website with the following attributes:
 
-- HTML5 and CSS 
+- HTML5 and CSS
 - Containerized with docker, Nginx
 - Cloud hosted, student rents server
-- Local development, connect via SSH 
+- Local development, connect via SSH
 
 </details>
 
@@ -135,31 +134,31 @@ The goal of creating a personal threat model is to help you understand potential
 
 You can find more information on [OWASP Threat modelling,](https://owasp.org/www-community/Threat_Modeling) in [The Threat Modelling Manifesto](https://www.threatmodelingmanifesto.org/) and [Privacyguides' threat modelling](https://www.privacyguides.org/en/basics/threat-modeling/)
 
-
 We also recommend creating a visual representation(s) of your threat model(for example threat dragon), diagrams and flowcharts are good for this. Discussing with your classmates can also help with any additional measures you can take to reduce your risks.
 
 ---
 
 ### Task 4: Personal Security Audit
 
-### Task 4A: Network scan 
+### Task 4A: Network scan
 
-Let's start with a network scan, [NMAP](https://nmap.org/); a network mapper which is 
-> "A free and open source utility for network exploration and security auditing" -[NMAP Book](https://nmap.org/book/preface.html) 
+Let's start with a network scan, [NMAP](https://nmap.org/); a network mapper which is
 
-NMAP is available as both a CLI and [GUI (Zenmap)](https://nmap.org/zenmap/) application, most of the time you will use nmap from the command line. There are some benefits to Zenmap, such as the topology map, and we are going to showcase that here in this task. 
+> "A free and open source utility for network exploration and security auditing" -[NMAP Book](https://nmap.org/book/preface.html)
+
+NMAP is available as both a CLI and [GUI (Zenmap)](https://nmap.org/zenmap/) application, most of the time you will use nmap from the command line. There are some benefits to Zenmap, such as the topology map, and we are going to showcase that here in this task.
 
 NMAP is available on all the commmon platforms and you can get it from their [website](https://nmap.org/download), however if you are using Linux, you can most likely get it from your package manager. Go ahead and proceed with the installation, for Linux you might have to install Zenmap package as it usually is not bundled with NMAP. If you are using Windows we recommend leaving everything as default.
 
->**Note**
->Before scanning your network, make sure to let everyone on the network know about it, and more importantly give them the ability to disconnect their devices. 
+> **Note**
+> Before scanning your network, make sure to let everyone on the network know about it, and more importantly give them the ability to disconnect their devices.
 
-To scan your network you are going to need your ip address in CIDR notation, which will most likely look something like this: ```192.168.1.0/24```. Below you will find instruction for Linux, Windows and Mac.
+To scan your network you are going to need your ip address in CIDR notation, which will most likely look something like this: `192.168.1.0/24`. Below you will find instruction for Linux, Windows and Mac.
 
 <details>
 <summary>Linux</summary>
 
-The command ```ip a``` will show your ip address already in CIDR notation, you just have to find the address of the correct device, usually the second from the top as the first will be localhost. 
+The command `ip a` will show your ip address already in CIDR notation, you just have to find the address of the correct device, usually the second from the top as the first will be localhost.
 
 ![ip a on Linux](https://github.com/ouspg/SecurityEngineering/blob/main/Week1_Threats/Images/Linux_ip_a.png)
 
@@ -176,9 +175,9 @@ The command ipconfig will show you your ip address and the subnet mask, with the
 
 These are the numbers we care about.
 
-The most common subnet mask in home networks is ```255.255.255.0``` this will result in '/24' at the end of the ip address. If your subnet mask is something else, please refer to this [cheat sheet](https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/) to find out your CIDR notated address.
+The most common subnet mask in home networks is `255.255.255.0` this will result in '/24' at the end of the ip address. If your subnet mask is something else, please refer to this [cheat sheet](https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/) to find out your CIDR notated address.
 
-Now make sure to swap the host part of your ip address; part after the last '.' to a 0. Add the CIDR and this will the address you will scan. 
+Now make sure to swap the host part of your ip address; part after the last '.' to a 0. Add the CIDR and this will the address you will scan.
 
 </details>
 
@@ -186,26 +185,34 @@ Now that we have the address we want to scan, open up Zenmap. The UI is mostly s
 
 Make your way over to the topology tab. Enable easy controls with the control button on the left. Here you should now see all the devices found, icon definitions can be seen after clicking the 'Legend' button on the right, and more info on the devices can be found by right clicking.
 
-Save the scan with ```CTRL + S``` and take a screenshot of this topology screen with devices clearly visible, you can redact device information from the screenshot if you want to. 
+Save the scan with `CTRL + S` and take a screenshot of this topology screen with devices clearly visible, you can redact device information from the screenshot if you want to.
 
->The topology map can show traceroutes when scanning outside your network, this is where the tool shines as a simple visual aid. 
+> The topology map can show traceroutes when scanning outside your network, this is where the tool shines as a simple visual aid.
 
 **What to return:**
+
 1. Did you find devices you did not know were in your network?
 2. Were there open ports which should have been closed?
 3. Did nmap find any vulnerabilities with the scripts?
 4. Screenshot of the topology of your network. You can redact device information if you want.
 
+5. Yes I found devices I didn't know were in my network. For example a Samsung CLP printer.
+6. There where 7 open ports and I don't think none of them should have been closed.
+7. Nmap didn't find any vulnerabilities with the scripts.
+8. ![Alt text](C:/Users/henri/Nmap.PNG)
+
 ### Task 4B: Account Security
 
 This part of task 4 is to check yourself with haveibeenpwned. This should let you know if your account details have been leaked and what types of information was included.
 
-[Haveibeenpwned](https://haveibeenpwned.com/) Is a website and very simple to use, you input your email address and it will search for leaks on platforms where you have accounts. The website shows you platforms it detected had been leaked and those leaks included your email address, however it is not a definitive list and there may be more leaks or dumps with your email included. Take a screenshot for the return. 
+[Haveibeenpwned](https://haveibeenpwned.com/) Is a website and very simple to use, you input your email address and it will search for leaks on platforms where you have accounts. The website shows you platforms it detected had been leaked and those leaks included your email address, however it is not a definitive list and there may be more leaks or dumps with your email included. Take a screenshot for the return.
 
 **What to return:**
+
 1. Has your account details leaked?
 2. Screenshot of haveibeenpwned search, you can redact information if you want.
 3. Did you change passwords and/or email + password combos, that were leaked, if not, do it.
 
 ### Feedback
+
 Be sure to give feedback on these tasks. Do you feel these to be the kind of skills you might need or want?
