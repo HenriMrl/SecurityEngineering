@@ -196,12 +196,12 @@ Save the scan with `CTRL + S` and take a screenshot of this topology screen with
 3. Did nmap find any vulnerabilities with the scripts?
 4. Screenshot of the topology of your network. You can redact device information if you want.<br><br>
 
-TASK 4 ANSWERS:
+TASK 4A ANSWERS:
 
-5. Yes I found devices I didn't know were in my network. For example a Samsung CLP printer.
-6. There where 7 open ports and I don't think none of them should have been closed.
-7. Nmap didn't find any vulnerabilities with the scripts.
-8. ![Alt text](C:/Users/henri/Nmap.PNG)
+1. Yes I found devices I didn't know were in my network. For example a Samsung CLP printer.
+2. There where 7 open ports and I don't think none of them should have been closed.
+3. Nmap didn't find any vulnerabilities with the scripts.
+4. ![alt text](Nmap.PNG)
 
 ### Task 4B: Account Security
 
