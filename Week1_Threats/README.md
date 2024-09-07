@@ -198,10 +198,10 @@ Save the scan with `CTRL + S` and take a screenshot of this topology screen with
 
 TASK 4A ANSWERS:
 
-1. Yes I found devices I didn't know were in my network. For example a Samsung CLP printer.
+1. Yes I found devices I didn't know were in the network. For example a Samsung CLP printer.
 2. There where 7 open ports and I don't think none of them should have been closed.
 3. Nmap didn't find any vulnerabilities with the scripts.
-4. ![alt text](Nmap.PNG)
+4. I used Kali linux vm for the nmap scan ![alt text](Nmap.PNG)
 
 ### Task 4B: Account Security
 
