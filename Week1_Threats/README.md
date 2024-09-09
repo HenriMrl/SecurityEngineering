@@ -34,6 +34,8 @@ You should setup the courses virtual machine and get it ready with docker workin
 
 ### Task 1: What measures have you taken to protect yourself from cyber crimes?
 
+TASK 1 ANSWERS:
+
 For actions against cyber attacs I am for example using multi factor authentication everywhere if possible. I am also using a different password for all of my accounts. I make my passwords strong and long enough to protect against brute force attacks etc. I also use password managers if possible, but only of the most popular ones and the reliable ones.
 
 I have not been a victim of cyber crimes. I think I could improve on checking if my accounts have been compromised more often. for example using haveibeenpwned.
@@ -214,6 +216,12 @@ This part of task 4 is to check yourself with haveibeenpwned. This should let yo
 1. Has your account details leaked?
 2. Screenshot of haveibeenpwned search, you can redact information if you want.
 3. Did you change passwords and/or email + password combos, that were leaked, if not, do it.
+
+TASK 4B ANSWERS:
+
+1. no my account details have not been leaked.
+2. ![alt text](pwned.PNG)
+3. No I didn't change passwords etc. because my account was not leaked.
 
 ### Feedback
 
