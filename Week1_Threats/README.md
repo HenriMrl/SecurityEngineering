@@ -97,6 +97,8 @@ Threat Dragon is an OSS tool used to create threat model diagrams(see image belo
 
 In this task we are using the second version, it's documentation is [here](https://owasp.org/www-project-threat-dragon/docs-2/install-options/). You may use your preferred method for installation, they are very similar, but we recommend **the desktop application,** as it stores the models on the local file system. First go through a bit of the documentation to get acquainted with the tool. Then you will be analysing a ready made flawed model, and you should find pain points and fix the model. The model is _"Student_website_Threat_Model.json"_ in the threat dragon repository, there you will also find an example of how the report looks like without threats. Below you will find minimum requirements and a system description.
 
+TASK DONE IN GITHUB, Feedback below.
+
 <details>
 <summary>Minimun requirements for the point:</summary>
 <br>
@@ -110,8 +112,6 @@ Each **missing** or **incomplete** main point deducts 0.1 from this part.
 - Named yourself as the reviewer
 - Exported report as PDF and uploaded to github
 - Gave feedback on this task on your github page
-
-TASK DONE IN GITHUB, Feedback below.
 
 </details>
 
