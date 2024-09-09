@@ -111,7 +111,7 @@ Each **missing** or **incomplete** main point deducts 0.1 from this part.
 - Exported report as PDF and uploaded to github
 - Gave feedback on this task on your github page
 
-TASK DONE IN GITHUB
+TASK DONE IN GITHUB, Feedback below.
 
 </details>
 
@@ -228,3 +228,5 @@ TASK 4B ANSWERS:
 ### Feedback
 
 Be sure to give feedback on these tasks. Do you feel these to be the kind of skills you might need or want?
+
+TASK 2A feedback: it was a good task. Instructions were clear and I learned how to use threat dragon.
