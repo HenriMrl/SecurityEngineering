@@ -1,0 +1,1 @@
+everytime the post request is sent, a cookie is generated in the Cookie: PHPSESSID=pm2okk8donnahol8nu19mk49v1; security=medium field, and it also shows in the response. Repeating the request many times didn't give more information.
