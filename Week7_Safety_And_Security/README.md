@@ -2,13 +2,13 @@
 
 ### Grading
 
-Task #|Points|Description|
------|:---:|----------|
-[Task 1](#task-1-safety-concerns) | 1 | Safety Concerns
-[Task 2](#task-2-static-and-dynamic-analyzers) | 1 | Static and Dynamic Analysers 
-[Task 3](#task-3-security-certification) | 1 | Security Certifications
-[Task 4](#task-4-tietoturvamerkki) | 1 | Tietoturvamerkki
-[Task 5](#task-5-showcase) | 1 | Showcase
+| Task #                                         | Points | Description                  |
+| ---------------------------------------------- | :----: | ---------------------------- |
+| [Task 1](#task-1-safety-concerns)              |   1    | Safety Concerns              |
+| [Task 2](#task-2-static-and-dynamic-analyzers) |   1    | Static and Dynamic Analysers |
+| [Task 3](#task-3-security-certification)       |   1    | Security Certifications      |
+| [Task 4](#task-4-tietoturvamerkki)             |   1    | Tietoturvamerkki             |
+| [Task 5](#task-5-showcase)                     |   1    | Showcase                     |
 
 (4 points max)
 
@@ -18,24 +18,24 @@ Task #|Points|Description|
 
 ### Task 1: Safety Concerns
 
-In terms of medical equipment and automotive industry mentioned in the Lecture 13, consider the following: 
+In terms of medical equipment and automotive industry mentioned in the Lecture 13, consider the following:
 
-- Why are new safety concerns sometimes overlooked? 
-- What are events that trigger sudden change? 
+- Why are new safety concerns sometimes overlooked?
+- What are events that trigger sudden change?
 
-250 words **maximum**, cite if you use external sources 
+250 words **maximum**, cite if you use external sources
 
-[Security Engineering Lecture 13: Safety and Security](https://www.youtube.com/watch?v=uZkQtnHKcJ4) 
+[Security Engineering Lecture 13: Safety and Security](https://www.youtube.com/watch?v=uZkQtnHKcJ4)
 
 ---
 
 ### Task 2: Static and Dynamic Analyzers
 
-Explain the difference between static and dynamic analyzers. Explain what the advantages are of using these tools during production.  Pick one of the Static or Dynamic testing methods mentioned in the Lecture 14 and write a brief description of it. 
+Explain the difference between static and dynamic analyzers. Explain what the advantages are of using these tools during production. Pick one of the Static or Dynamic testing methods mentioned in the Lecture 14 and write a brief description of it.
 
-300 words **maximum**, cite if you use external sources 
+300 words **maximum**, cite if you use external sources
 
-[Security Engineering Lecture 14: Assurance and Sustainability](https://www.youtube.com/watch?v=cmWQF2FDlG8) 
+[Security Engineering Lecture 14: Assurance and Sustainability](https://www.youtube.com/watch?v=cmWQF2FDlG8)
 
 ---
 
@@ -43,42 +43,39 @@ Explain the difference between static and dynamic analyzers. Explain what the ad
 
 Consider the different incentives (both 'Good' and 'Bad' incentives) for Security Certification of a product from the following points of view:
 
-- Potential End User/Buyer of the product 
-- Certifying authority (both vendor funded and non-profit) 
-- Manufacturer/designer of the product 
+- Potential End User/Buyer of the product
+- Certifying authority (both vendor funded and non-profit)
+- Manufacturer/designer of the product
 
-400 words **maximum**, cite if you use external sources 
+400 words **maximum**, cite if you use external sources
 
 **(EXPLANATIONS)**
 
-- Vendor funded = Applicant pays the certifying authority for the certification process 
-- Non-profit = Applicant does not have to pay directly for the certification process 
+- Vendor funded = Applicant pays the certifying authority for the certification process
+- Non-profit = Applicant does not have to pay directly for the certification process
 
-
-[Security Engineering Lecture 15: Governance and Regulation](https://www.youtube.com/watch?v=PdMzMHizEaE) 
-[Security Engineering Lecture 16: Ian Levy, NCSC - Protecting a country for fun and profit](https://www.youtube.com/watch?v=qv6SS5FhdUk) 
+[Security Engineering Lecture 15: Governance and Regulation](https://www.youtube.com/watch?v=PdMzMHizEaE)
+[Security Engineering Lecture 16: Ian Levy, NCSC - Protecting a country for fun and profit](https://www.youtube.com/watch?v=qv6SS5FhdUk)
 
 ---
 
 ### Task 4: Tietoturvamerkki
 
-You might be familiar with CE-Certification regarding electrical equipment and products. Although it is not a guarantee of safety, you can feel a certain amount of confidence towards the product. Could something similar be possible for Cybersecurity? 
+You might be familiar with CE-Certification regarding electrical equipment and products. Although it is not a guarantee of safety, you can feel a certain amount of confidence towards the product. Could something similar be possible for Cybersecurity?
 
-Take a look at Tietoturvamerkki and write an essay answering the following questions: 
+Take a look at Tietoturvamerkki and write an essay answering the following questions:
 
-- What is Tietoturvamerkki 
-- What kind of products does it concern 
-- How does a product get a Tietoturvamekki certificate 
-- What does the certificate guarantee about the product and what it does not 
-- Include your own thoughts about this style of certificate. Would you pay more for a certified product? Do you see any problems regarding the certificate? 
+- What is Tietoturvamerkki
+- What kind of products does it concern
+- How does a product get a Tietoturvamekki certificate
+- What does the certificate guarantee about the product and what it does not
+- Include your own thoughts about this style of certificate. Would you pay more for a certified product? Do you see any problems regarding the certificate?
 
-400 words **maximum**. 
- 
+400 words **maximum**.
 
-FI: https://tietoturvamerkki.fi/fi/tietoturvamerkki-etusivu 
+FI: https://tietoturvamerkki.fi/fi/tietoturvamerkki-etusivu
 
-EN: https://tietoturvamerkki.fi/en/cybersecurity-label 
-
+EN: https://tietoturvamerkki.fi/en/cybersecurity-label
 
 ---
 
@@ -98,3 +95,14 @@ Pick a new tool that has not been featured in the course, so the following are f
 - Who would most benefit from this tool?
 - What kind of use case could you yourself have for this tool?
 
+TASK 5 ANSWERS:
+
+- Metasploit
+- https://www.metasploit.com/
+- Free
+- Metasploit was created in 2003 by H.D Moore
+- Metasploit is an open source project
+- It is used in penetration testing and it also provides data about security vulnerabilities.
+- It can launch exploits, scan systems for vulnerabilities, encode and it also provides shellcode, listeners and auxiliary functions.
+- someone who wants to pen-test a website benefits from this tool creatly.
+- One case would be to use metasploit in a virtual enviroment to practice pen testing.
